@@ -12,14 +12,8 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.citasmedicas.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_mi_citas"
+        android:name="com.example.citasmedicas.ui.MiCitas.MiCitasFragment"
         android:label="@string/menu_citas"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.citasmedicas.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_salir"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_mi_citas" />
 </navigation>
